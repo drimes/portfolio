@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #222;
+}
+
+header {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    background-color: #628fbd;
+    height: 60px;
+    position: fixed;
+}
+
+.header-name {
+    flex-basis: 30%;
+}
+
+.header-name h1 {
+    position: absolute;
+    top: -15px;
+    left: 25px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 70%;
+}
+
+#navbar > ul {
+    display: flex;
+}
+
+#navbar ul li {
+    padding: 10px 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navlist li:hover {
+    background-color: #9062BD;
+}
+
+#welcome-section {
+    background-color: #BD6362;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#projects {
+    height: 100vh;
+    padding-top: 50px;
+    overflow: auto;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #222;
+    margin: 20px;
+}
+
+#project-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+#project-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+.project-tile {
+    border: 1px solid #fff;
+    width: 300px;
+    height: auto;
+    background-color: #BD6362;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+.project-tile a {
+    text-decoration: none;
+}
+
+.project-tile p {
+    text-align: center;
+    color: #222;
+}
+
+.project-tile img {
+    width: 300px;
+    height: auto;
+}
+
+#contact {
+    background-color: #BD6362;
+    height: 90vh;
+    padding-top: 75px;
+    text-align: center;
+}
+
+#contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#links a {
+    padding: 10px 15px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+#links i {
+    padding-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
